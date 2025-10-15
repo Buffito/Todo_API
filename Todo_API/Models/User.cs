@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Places_API.Models
+namespace ToDo_API.Models
 {
     public class User
     {

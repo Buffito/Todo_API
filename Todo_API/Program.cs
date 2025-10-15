@@ -1,11 +1,6 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Todo_API.Models;
 using AutoMapper;
-using Todo_API.DTO;
-using System.Text;
 using SQLitePCL;
+using ToDo_API.DTO;
 
 Batteries.Init();
 
