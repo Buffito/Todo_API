@@ -1,13 +1,16 @@
 ﻿using AutoMapper;
-using ToDo_API.Models;
+using Todo_API.DTO.Todo;
 
-namespace ToDo_API.DTO
+namespace Todo_API.DTO
 {
     public class MappingProfile : Profile
     {
         public MappingProfile()
         {
-
+          CreateMap<CreateTodoDto, Models.Todo>();
+          CreateMap<UpdateTodoDto, Models.Todo>();
+          CreateMap<Models.Todo, CreateTodoDto>();
+          CreateMap<Models.Todo, UpdateTodoDto>();
         }
     }
 }
